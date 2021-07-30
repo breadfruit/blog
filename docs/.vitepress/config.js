@@ -1,7 +1,5 @@
-import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
 
-export default defineUserConfig<DefaultThemeOptions>({
+module.exports = {
   lang: 'en-US',
   title: 'Hello VuePress',
   description: 'Just playing around',
@@ -9,4 +7,4 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
   },
-})
+}
