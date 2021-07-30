@@ -14,5 +14,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-      run: yarn;sh deploy.sh
-      
+    - run: yarn \
+           npm run docs:build \
+           cd docs/.vitepress/dist \
+           git init \
+           git add -A \
+           git commit -m 'deploy'
+    
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
