@@ -14,11 +14,12 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-    - run: yarn \
-           npm run docs:build \
-           cd docs/.vitepress/dist \
-           git init \
-           git add -A \
+      run:  |
+           yarn 
+           npm run docs:build
+           cd docs/.vitepress/dist
+           git init
+           git add -A
            git commit -m 'deploy'
     
     - name: Push changes
