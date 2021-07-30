@@ -14,4 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-      run: sh deploy.sh
+      run: yarn;sh deploy.sh
+      
