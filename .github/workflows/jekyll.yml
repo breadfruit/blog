@@ -19,6 +19,7 @@ jobs:
            npm run docs:build
            cd docs/.vitepress/dist
            git init
+           git config --local user.name "ci"
            git add -A
            git commit -m 'deploy'
     
