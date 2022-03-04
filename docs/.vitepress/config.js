@@ -15,14 +15,14 @@ module.exports = {
 function getSidebar() {
     return [
         {
-            text: '/JavaScript',
+            text: 'JavaScript',
             children: [
                 {text: '基础', link: '/JavaScript/'},
                 {text: '进阶', link: '/JavaScript/advanced'}
             ]
         },
         {
-            text: '/TypeScript',
+            text: 'TypeScript',
             children: [
                 {text: '基础', link: '/TypeScript/'},
                 {text: '进阶', link: '/TypeScript/advanced'}
