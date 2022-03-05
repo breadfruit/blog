@@ -17,7 +17,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run:  |
-           yarn 
+           yarn
            npm run docs:build
            cd docs/.vitepress/dist
            git init
@@ -26,6 +26,6 @@ jobs:
            git commit -m 'deploy'
            git remote add origin https://scuzzlebuzzle:${GH_TOKEN}@github.com/breadfruit/blog.git
            git checkout -b gh-pages
-           git push -f --set-upstream origin gh-pages
-    
+           git push -f --set-upstream origin master
+
 
