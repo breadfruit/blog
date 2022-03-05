@@ -25,7 +25,7 @@ jobs:
            git add -A
            git commit -m 'deploy'
            git remote add origin https://scuzzlebuzzle:${GH_TOKEN}@github.com/breadfruit/blog.git
-           git checkout -b gh-pages
+           git checkout -b master
            git push -f --set-upstream origin master
 
 

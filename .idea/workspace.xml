@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37b04e0b-66ba-4414-9792-95780aa0ee19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/jekyll.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/jekyll.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646377144868</updated>
       <workItem from="1646377146145" duration="8726000" />
-      <workItem from="1646403960858" duration="526000" />
+      <workItem from="1646403960858" duration="652000" />
     </task>
     <servers />
   </component>
