@@ -7,3 +7,5 @@ actionText: Get Started
 actionLink: /JavaScript/
 footer: MIT Licensed | Copyright © 2022-present Evan You
 ---
+
+<Comment/>
